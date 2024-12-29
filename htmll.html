@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table Using Colspan</title>
+	<style>
+		table, th, td {
+			border: 2px solid red;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 15px;
+			text-align: center;
+		}
+		tr:nth-child(odd) {
+			background-color: yellowgreen;
+		}
+		td:hover {
+			background-color: grey;
+		}
+	</style>
+</head>
+<body>
+	<h1>Table with Merged Columns</h1>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Jackson Jeffrey</td>
+			<td>32</td>
+		</tr>
+		<tr>
+			<td>Mark Matthew</td>
+			<td>28</td>
+		</tr>
+		<tr>
+			<td colspan="2">JayJay Johnson Johnson</td>
+		</tr>
+	</table>
+</body>
+</html>

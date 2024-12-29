@@ -1,0 +1,43 @@
+body
+{
+	background-color: silver;
+}
+
+h1
+{
+	color: lightskyblue;
+	background-color: cornsilk;
+	font-family: verdana;
+	border: 3px solid black;
+}
+
+h3
+{
+	color: lightskyblue;
+	text-align: center;
+}
+
+p
+{
+	text-align: center;
+	font-family: serif;
+	font-size: 20px;
+	color: lightskyblue;
+}
+
+table, th, td
+{
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+
+th
+{
+	background-color: lightskyblue;
+	color: sandybrown;
+}
+
+tr:hover
+{
+	background-color: saddlebrown;
+}
